@@ -2,9 +2,6 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/57c04515-1d1b-46e8-b531-213fabca9cc4/deploy-status)](https://app.netlify.com/sites/gatsby-portfolio-dev/deploys)
 
-## Theme
-[Gatsby-theme-portfolio](https://github.com/smakosh/gatsby-theme-portfolio)
-
 ## Features
 
 - Eslint/Prettier configured
@@ -31,12 +28,16 @@ Project on [Behance](https://www.behance.net/gallery/74172961/Free-Gatsby-portfo
 ├── data
 │   └── config              # SEO related tags
 ├── src
+│   └── assets              # Assets
+│   │   │── icons             # icons
+│   │   │── illustrations     # illustrations from (undraw.co)
+│   │   └── thumbnail         # cover of your website when it's shared to social media
 │   ├── components          # Components
-│   │   │── common          # Common components
-│   │   │── landing         # Components used on the landing page
-│   │   └── theme           # Header & Footer
+│   │   │── common            # Common components
+│   │   │── landing           # Components used on the landing page
+│   │   └── theme             # Header & Footer
 │   └── pages               # Pages
-└── static                  # Icons, favicon & SVG illustrations
+└── static                  # favicon & Netlify redirects
 ```
 
 ## Prerequisites
@@ -99,9 +100,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Contributors
 
-- [Ajay NS](https://github.com/ajayns) https://github.com/smakosh/gatsby-portfolio-dev/pull/3
-- [Ryan Lee](https://github.com/drdgvhbh) https://github.com/smakosh/gatsby-portfolio-dev/pull/6
-- [David](https://github.com/davidavz) https://github.com/smakosh/gatsby-portfolio-dev/pull/8
+- [Ajayns](https://github.com/ajayns) https://github.com/smakosh/gatsby-portfolio-dev/pull/3
 - [Myself](https://smakosh.com)
 
 ## Support
